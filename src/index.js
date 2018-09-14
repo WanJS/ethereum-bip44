@@ -1,4 +1,4 @@
-import { pubToAddress } from 'ethereumjs-util';
+import { pubToAddress } from 'wanchainjs-util';
 import { HDPrivateKey, HDPublicKey } from 'bitcore-lib';
 import assert from 'assert';
 var ec = require('elliptic').ec('secp256k1');
